@@ -196,6 +196,7 @@ const CheckingTicket: FC<Props> = (props) => {
 
     </Content >
   )
+  
 };
 
 
