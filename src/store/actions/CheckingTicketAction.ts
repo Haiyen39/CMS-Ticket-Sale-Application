@@ -5,11 +5,11 @@ import { GET_CHECKING_MN, GET_CHECKING_SELECT, TicketManageAction } from '../typ
 
 
 export const getCheckingTicket = (
-   usageStatus: number,
-   dayStart: any,
-   dayEnd: any,
-   valueSreach: string,
-   select: string
+  usageStatus: number,
+  dayStart: any,
+  dayEnd: any,
+  valueSreach: string,
+  select: string
 ): ThunkAction<void, RootState, null, TicketManageAction> => {
   return async dispatch => {
     try {

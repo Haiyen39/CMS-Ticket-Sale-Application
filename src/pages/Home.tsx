@@ -73,14 +73,14 @@ const Home: FC = () => {
           </span>
         </Row>
 
-        {/* <Row style={{ marginTop: "40px" }}>
+        <Row style={{ marginTop: "40px" }}>
           <Col span={24}>
             {chartSeri
               ? <AreaChart data={chartSeri} ></AreaChart>
               : <AreaChart data={chartSeries} ></AreaChart>
             }
           </Col>
-        </Row> */}
+        </Row>
 
         <Row style={{ marginTop: "40px" }}>
           <Col span={24} style={{ fontSize: "14px" }}>

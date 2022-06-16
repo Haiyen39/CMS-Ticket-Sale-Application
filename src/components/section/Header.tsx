@@ -23,7 +23,7 @@ const HeaderWeb: FC = () => {
       }}>
 
         <Input
-          placeholder="Search"
+          placeholder="Tìm bằng số vé"
           className='Input-sreach'
           style={{width: 470}}
           suffix={<SearchOutlined style={{ fontSize: 24 }} />}
