@@ -84,7 +84,7 @@ const Home: FC = () => {
 
         <Row style={{ marginTop: "40px" }}>
           <Col span={24} style={{ fontSize: "14px" }}>
-            Tổng danh thu theo tuần
+            Tổng doanh thu theo tuần
           </Col>
         </Row>
 
