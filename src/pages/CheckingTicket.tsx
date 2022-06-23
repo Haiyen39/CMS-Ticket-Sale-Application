@@ -60,7 +60,7 @@ const CheckingTicket: FC<Props> = (props) => {
     >
       <Row>
         <Col span={17} style={{ borderRadius: "24px" }}>
-          <Card title="Đổi soát vé" style={{ fontSize: 16, borderRadius: 24 }}>
+          <Card title="Đối soát vé" style={{ fontSize: 16, borderRadius: 24 }}>
 
             <Row style={{ marginTop: 10 }}>
               <Col span={12}>
@@ -138,7 +138,7 @@ const CheckingTicket: FC<Props> = (props) => {
               </Row><br />
 
               <Row>
-                <Col span={12}>Tình trạng đổi soát</Col>
+                <Col span={12}>Tình trạng đối soát</Col>
                 <Col span={12}>
                   <Radio.Group
                     value={usageStatus}
@@ -147,8 +147,8 @@ const CheckingTicket: FC<Props> = (props) => {
                   >
                     <Space direction="vertical">
                       <Radio value={0}>Tất cả</Radio>
-                      <Radio value={1}>Đã đổi soát</Radio>
-                      <Radio value={2}>Chưa đổi soát</Radio>
+                      <Radio value={1}>Đã đối soát</Radio>
+                      <Radio value={2}>Chưa đối soát</Radio>
                     </Space>
                   </Radio.Group>
                 </Col>

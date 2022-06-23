@@ -137,7 +137,7 @@ const Home: FC = () => {
             </Row>
             <Row style={{ display: 'flex', alignItems: 'center' }}>
               <span style={{ width: 44, height: 20, borderRadius: 4, background: '#FF8A48', marginRight: 8 }}></span>
-              <span>Vé đã sự dụng</span>
+              <span>Vé đã sử dụng</span>
             </Row>
           </Col>
 
