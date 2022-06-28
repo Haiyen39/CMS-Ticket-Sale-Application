@@ -133,11 +133,11 @@ const Home: FC = () => {
             <br /> <br />
             <Row style={{ display: 'flex', alignItems: 'center' }}>
               <span style={{ width: 44, height: 20, borderRadius: 4, background: '#4F75FF', marginRight: 8 }}></span>
-              <span>Vé đã sự dụng</span>
+              <span>Vé đã sử dụng</span>
             </Row>
             <Row style={{ display: 'flex', alignItems: 'center' }}>
               <span style={{ width: 44, height: 20, borderRadius: 4, background: '#FF8A48', marginRight: 8 }}></span>
-              <span>Vé đã sử dụng</span>
+              <span>Vé Đã Sử Dụng</span>
             </Row>
           </Col>
 

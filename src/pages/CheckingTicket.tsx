@@ -60,14 +60,14 @@ const CheckingTicket: FC<Props> = (props) => {
     >
       <Row>
         <Col span={17} style={{ borderRadius: "24px" }}>
-          <Card title="Đối soát vé" style={{ fontSize: 16, borderRadius: 24 }}>
+          <Card title="Đối Soát Vé" style={{ fontSize: 16, borderRadius: 24 }}>
 
             <Row style={{ marginTop: 10 }}>
               <Col span={12}>
                 <Input
                   value={valueSreach}
                   onChange={(e: any) => setvalueSreach(e.target.value)}
-                  placeholder="Tìm bằng số vé"
+                  placeholder="Tìm Bằng Số Vé"
                   className='Input-sreach'
                   suffix={<SearchOutlined style={{ fontSize: 24 }} />}
                 />
@@ -113,7 +113,7 @@ const CheckingTicket: FC<Props> = (props) => {
 
         <Col span={6} style={{ marginLeft: 30 }}>
           <Card
-            title="Lọc vé"
+            title="Lọc Vé"
             style={{
               fontSize: 16,
               borderRadius: 24
